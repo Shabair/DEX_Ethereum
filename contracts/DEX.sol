@@ -221,7 +221,7 @@ contract DEX {
         );
 
         uint256 totalOrder = orders.length > 0 ? orders.length - 1 : 0;
-
+        //sorting
         while (totalOrder > 0) {
             if (
                 side == Side.BUY &&
